@@ -11,6 +11,8 @@ wingbeater.begin();
 
 // set throttle (float, unit is fulll throttle)
 
+// 0 1 2 3 maps pin 2 3 4 5
+
 wingbeater.throttle[0] = 0.1f;
 
 // whem any command is set, it will do only the commands
